@@ -1,24 +1,98 @@
 #btn_1,#btn_2, #btn_3, #btn_4, #btn_5, #btn_6, #btn_7, #btn_8, #btn_9, #btn_0 {
     background-color: black;
     color: white;
+    width: 25%;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 #btn_point, #btn_equal, #btn_plus, #btn_min, #btn_x, #btn_div {
     background-color: black;
     color: white;
+    width: 25%;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 #btn_ac, #btn_c{
     background-color: red;
     color: white;
+    width: 25%;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 #btn_plusminus, #btn_porce {
     background-color: black;
     color: white;
+    width: 25%;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 #btn_mrc, #btn_mminus, #btn_mplus, #btn_root, #btn_off {
     background-color: black;
     color: white;
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#btn_numbers0, #btn_numbers13, #btn_numbers46, #btn_numbers79, #btn_clear, #btn_memory {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    gap: 10px;
+    padding: 0 10px
+}
+
+#Title {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#display {
+    width: 280px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    background-color: white;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#Nums {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+#container {
+    width: 300px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: lightgrey;
 }
