@@ -1,3 +1,24 @@
-#btn_1{
-    color: aqua;
+#btn_1,#btn_2, #btn_3, #btn_4, #btn_5, #btn_6, #btn_7, #btn_8, #btn_9, #btn_0 {
+    background-color: black;
+    color: white;
+}
+
+#btn_point, #btn_equal, #btn_plus, #btn_min, #btn_x, #btn_div {
+    background-color: black;
+    color: white;
+}
+
+#btn_ac, #btn_c{
+    background-color: red;
+    color: white;
+}
+
+#btn_plusminus, #btn_porce {
+    background-color: black;
+    color: white;
+}
+
+#btn_mrc, #btn_mminus, #btn_mplus, #btn_root, #btn_off {
+    background-color: black;
+    color: white;
 }
