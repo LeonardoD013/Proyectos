@@ -1,3 +1,10 @@
+let Num1 = 0;
+let Num2 = 0;
+
+function Sum(num1, num2) {
+    return num1 + num2;
+}
+
 document.getElementById("btn_0").addEventListener("click", function() {
     document.getElementById("Nums").innerHTML = document.getElementById("Nums").innerHTML + "0";
 });
@@ -36,4 +43,21 @@ document.getElementById("btn_8").addEventListener("click", function() {
 
 document.getElementById("btn_9").addEventListener("click", function() {
     document.getElementById("Nums").innerHTML = document.getElementById("Nums").innerHTML + "9";
+});
+
+document.getElementById("btn_ac").addEventListener("click", function() {
+    document.getElementById("Nums").innerHTML = "";
+    Num1 = 0;
+    Num2 = 0;
+});
+
+document.getElementById("btn_c").addEventListener("click", function() {
+    if (Num1 > 0) {
+        Num2 = 0;
+        document.getElementById("Nums").innerHTML = "";
+    }
+});
+
+document.getElementById("btn_plus").addEventListener("click", function() {
+    document.getElementById("Nums");
 });
